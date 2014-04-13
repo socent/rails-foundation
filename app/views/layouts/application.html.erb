@@ -14,9 +14,19 @@
     <header>
       <%= render 'layouts/navigation' %>
     </header>
-    <main role="main">
-       <%= render 'layouts/messages' %>
-       <%= yield %>
+    <main role="main" class="row">
+      <div class="small-12 columns">
+        <%= render 'layouts/messages' %>
+        <%= yield %>
+      </div>
     </main>
+    <footer class="row">
+      <section class="small-12 medium-4 columns">
+        Copyright 2014
+      </section>
+      <section class="small-12 medium-8 columns">
+        All rights reserved.
+      </section>
+</footer>
   </body>
 </html>
