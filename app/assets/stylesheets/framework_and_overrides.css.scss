@@ -82,6 +82,9 @@ section {
 /*------------------------------------
  TIMELINE
 ------------------------------------*/
+/*------------------------------------
+ timeline styles
+------------------------------------*/
 .path-container {
   margin-top: 50px;
   margin-bottom: 70px;
@@ -180,8 +183,11 @@ section {
     margin-right: auto;
   }
 }
+  
 
-// CSS for About
+/*------------------------------------
+About
+------------------------------------*/
 
 .card {
   position: relative;
@@ -305,6 +311,7 @@ h2 {
  CONTACT
 ------------------------------------*/
 
+             
 .signup-panel {
   border-radius: 5px;
   border: 1px solid #ccc;
