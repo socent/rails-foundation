@@ -14,6 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require foundation
+//= require foundation.interchange
+//= require reveal
 //= require_tree .
 $(function() {
   $(document).foundation();
