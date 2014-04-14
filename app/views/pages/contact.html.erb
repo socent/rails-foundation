@@ -9,57 +9,48 @@
         </div>
         <div class="back">
           <div class="large-12 columns">
-    <div class="section-container" data-section>
-      <section class="section">
-        <div class="content" data-slug="panel1">
-          <form>
-            <div class="row collapse">
-              <div class="large-2 columns">
-                <label class="inline">Name</label>
-              </div>
-              <div class="large-10 columns">
-                <input type="text" id="yourName" placeholder="Jane Smith">
-              </div>
-            </div>
-            <div class="row collapse">
-              <div class="large-2 columns">
-                <label class="inline">Email</label>
-              </div>
-              <div class="large-10 columns">
-                <input type="text" id="yourEmail" placeholder="jane@smithco.com">
-              </div>
-            </div>
-            <label>Tell us about your project</label>
-            <textarea rows="4"></textarea>
-            <button type="submit" class="radius button">Submit</button>
-          </form>
+            <div class="section-container" data-section>
+              <section class="section">
+                <div class="content" data-slug="panel1">
+                  <form>
+                    <div class="row collapse">
+                      <div class="large-2 columns">
+                        <label class="inline">Name</label>
+                      </div>
+                      <div class="large-10 columns">
+                        <input type="text" id="yourName" placeholder="Jane Smith">
+                      </div>
+                    </div>
+                    <div class="row collapse">
+                      <div class="large-2 columns">
+                        <label class="inline">Email</label>
+                      </div>
+                      <div class="large-10 columns">
+                        <input type="text" id="yourEmail" placeholder="jane@smithco.com">
+                      </div>
+                    </div>
+                    <label>Tell us about your project</label>
+                    <textarea rows="4"></textarea>
+                    <button type="submit" class="radius button">Submit</button>
+                  </form>
+                </div>
+              </section>
+              <section class="section">
+                <h5 class="title"><a href="#panel2" data-reveal-id="myModal" data-reveal>Looking for a specific person?</a></h5>
+              </section>
+            </div><!-- .section-container -->
+          </div><!-- .large-12 columns-->
         </div>
-      </section>
-      <section class="section">
-        <h5 class="title"><a href="#panel2">Looking for a specific person?</a></h5>
-      </section>
-    </div><!-- .section-container -->
-  </div><!-- .large-12 columns-->
-</div><!-- .row -->
-
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Modal -->
-<div class="reveal-modal" id="contactModal">
-  <div class="row">
-    <div class="large-12 columns">
-      <div class="section-container tabs" data-section>
-        <section class="section">
-          <div class="content" data-slug="panel2">
-            <ul class="large-block-grid-5">
-              <li><a href="mailto:monikawilcox@yahoo.com"><img src="http://placehold.it/200x200&amp;text=[person]">Monika Wilcox</a></li>
-              <li><a href="mailto:brad@entreprenolo.gy"><img src="http://placehold.it/200x200&amp;text=[person]">Brad Wilcox</a></li>
-            </ul>
-          </div>
-        </section>
-      </div>
-    </div><!-- End Contact Details -->
-  </div><!-- End Main Content -->
-
-  <!-- Any anchor with this class will close the modal. This also inherits certain styles, which can be overriden. -->
-  <a href="#" class="close-reveal-modal">&times;</a>
-</div><!-- End Modal -->
+<div id="myModal" class="reveal-modal" data-reveal>
+    <ul class="large-block-grid-4">
+      <li><a href="mailto:monikawilcox@yahoo.com"><img src="http://placehold.it/200x200&amp;text=[person]">Monika Wilcox</a></li>
+      <li><a href="mailto:brad@entreprenolo.gy"><img src="http://placehold.it/200x200&amp;text=[person]">Brad Wilcox</a></li>
+    </ul>
+    <a href="#" class="close-reveal-modal">&times;</a>
+</div>

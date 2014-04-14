@@ -14,9 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require foundation
-//= require foundation.interchange
-//= require reveal
 //= require_tree .
 $(function() {
   $(document).foundation();
 });
+
+// or directly on the reveal modal
+$('#myModal').foundation('reveal', 'open');
+$('#myModal').foundation('reveal', 'close');
